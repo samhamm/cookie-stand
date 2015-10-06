@@ -1,4 +1,3 @@
-
 var CookieStand = function(place, minCustHour, maxCustHour, avgCookiesCust, id) {
 	this.place = place;
 	this.minCustHour = minCustHour;
