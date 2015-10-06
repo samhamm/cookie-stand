@@ -1,4 +1,36 @@
-ul {
-	color: #869dad;
-	postion: center;
+
+body {
+	font-family: 'Lato', sans-serif;
 }
+
+h1 {
+	text-align: center;
+	display: inline-block;
+}
+
+ul {
+	postion: center;
+	display:inline-block;
+	color: #808080;
+	padding-bottom: 3px;
+	font-size: 14px;
+	padding-right: 10px;
+	float: left;
+    font-weight: bold;
+    margin: 0 50px 0 0;
+    padding: 0 !important;
+    text-align: center;
+}
+
+.menu {
+/*    display: flex;*/
+    justify-content: space-between;
+}
+
+img {
+    position: absolute;
+    top: 60%;
+    margin-left: -(X/2)px;
+    margin-top: -(Y/2)px;
+}
+
