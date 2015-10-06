@@ -1,11 +1,16 @@
-
 body {
 	font-family: 'Lato', sans-serif;
+	background-color: #f0e9ce;
 }
 
 h1 {
 	text-align: center;
-	display: inline-block;
+	color: #266fa1;
+	font-family: Helvetica, sans-serif;
+}
+
+h4 {
+	font-family: Georgia;
 }
 
 ul {
@@ -18,18 +23,19 @@ ul {
 	float: left;
     font-weight: bold;
     margin: 0 50px 0 0;
-    padding: 0 !important;
+    padding: 15 !important;
     text-align: center;
+    background-color: #f4f1e7;
+    line-height: 150%;
 }
 
 .menu {
-/*    display: flex;*/
     justify-content: space-between;
 }
 
 img {
     position: absolute;
-    top: 60%;
+    top: 65%;
     margin-left: -(X/2)px;
     margin-top: -(Y/2)px;
 }
